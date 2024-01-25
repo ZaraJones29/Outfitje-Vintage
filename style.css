@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Koulen";
+    src: url(fonts/Koulen/Koulen-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+header li a {
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 1.57em;
+    padding-right: 1.57em;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a10b0b;
+    font-family: Koulen;
+    font-size: 1.1em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    background-image: url("images/Outfitje vintage achtergrond.jpg");
+    background-color: #cccccc;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-family: Koulen;
+}
+
+h2 {
+    border-bottom: 0;
+    margin: 1em;
+    margin-bottom: 0;
+    font-family: Koulen;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: Roboto;
+    margin: 1em;
+    margin-top: 0;
+}
+
+.copyright {
+    font-size: 0.8em;
+    padding: 0.5em;
+}
+
+.logo {
+    padding-bottom: 1em;
+}
+
+.img {
+    margin: 1em;
+    margin-top: 0;
+}
+
+#footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.outfits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.5em;
+}
